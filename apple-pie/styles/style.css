@@ -1,16 +1,9 @@
-* {
-  box-sizing: border-box;
-  font-family: ;
-}
-p,
-li {
-  color: gray;
-}
-
 #apple-bg {
   height: 500px;
   background-image: url("/images/apple-pie.jpg");
   background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
 }
 #text-burger p {
@@ -24,11 +17,15 @@ li {
   align-items: center;
   color: white;
   font-size: 3.5rem;
+  font-weight: lighter;
 }
 
 #text-burger {
   width: 85%;
   margin: 0px auto;
+}
+ul {
+  list-style-type: none;
 }
 
 .icon-bg {
@@ -36,6 +33,6 @@ li {
 }
 
 .icons {
-  width: 30%;
+  width: 35%;
   margin: 0px auto;
 }
