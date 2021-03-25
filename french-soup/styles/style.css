@@ -11,7 +11,7 @@ html {
   font-size: 18px;
 }
 
-#apple-bg {
+#soup-bg {
   height: 500px;
   background-image: url("../images/soup.jpg");
   background-size: 100%;
@@ -20,16 +20,14 @@ html {
   display: flex;
 }
 #text-burger p {
-  font-size: 1.2em;
   margin-top: 30px;
 }
 
-#apple-bg h1 {
+#soup-bg h1 {
   display: flex;
   margin: 0px auto;
   align-items: center;
   color: white;
-  font-size: 3.5rem;
   font-weight: lighter;
 }
 
